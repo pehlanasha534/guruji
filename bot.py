@@ -12,7 +12,7 @@ from telegram.ext import (
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
 # --- CONFIGURATION ---
-TOKEN = "8956064048:AAHte0oYErfdW9Cg88zTla1r6PcxFvEJiGc"
+TOKEN = "8667960061:AAGXfbJlHvqhQ8A1RQSkCHWKinIzzDtJJEY"
 ALLOWED_GROUP_ID = -1004413547137
 
 USERS_FILE = "users.json"
