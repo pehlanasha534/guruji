@@ -12,13 +12,12 @@ from telegram.ext import (
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 
 # --- CONFIGURATION ---
-TOKEN = "8667960061:AAGXfbJlHvqhQ8A1RQSkCHWKinIzzDtJJEY"
+TOKEN = "8667960061:AAFLiXHS8kAYBTOybaLQ6-Q0yqmZFzArjjs"
 ALLOWED_GROUP_ID = -1004413547137
 
 USERS_FILE = "users.json"
 BANNED_WORDS_FILE = "banned_words.json"
 WARNS_FILE = "warns.json"
-
 def load_data(filename, default):
     if not os.path.exists(filename):
         with open(filename, "w") as f:
